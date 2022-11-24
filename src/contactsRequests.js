@@ -1,7 +1,9 @@
 import axios from "axios"
 
-const baseURL = "https://evening-river-11436.herokuapp.com/api/persons"
-// OLD url "http://localhost:3001/api/persons"
+// Relative URL
+const baseURL = '/api/persons'
+// LOCAL url "http://localhost:3001/api/persons"
+// 1º Heroku Backend "https://evening-river-11436.herokuapp.com/api/persons"
 
 // ADD
 export const add = (person, persons, setPersons, editErrorMessage, setErrorMessage) => {
